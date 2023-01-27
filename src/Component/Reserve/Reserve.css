@@ -1,8 +1,29 @@
 .reserve{
-    position: absolute;
-    z-index: 11111;
-    bottom: 20px;
-    font-size: 50px;
-    font-weight: 900;
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0, 0, 0, .6);
+   top: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.rContainer{
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    position: relative;
+}
+.rClose{
     color: blue;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+}
+.rItem{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
